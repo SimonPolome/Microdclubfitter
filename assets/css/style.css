@@ -2863,7 +2863,7 @@ html {
   .premium-banner {
     width: 100%;
     max-height: 720px;
-    background-image: url("../images/photos/galerie\ \(9\).jpg");
+    background-image: url("../images/photos/galerie.jpg");
     background-position: 50%;
     background-size: cover;
     justify-content: center;
@@ -2885,10 +2885,12 @@ html {
     padding: 120px 30px;
     display: flex;
   }
+  .precios-home .container{
+    margin-bottom: 5rem;
+  }
   
   .premium-image-banner {
     width: 100%;
-    max-height: 720px;
     max-width: 1440px;
     flex: 1;
     justify-content: center;
@@ -4182,7 +4184,6 @@ html {
     }
   
     .image-banner {
-      margin-bottom: 30px;
       margin-right: 0;
     }
   
