@@ -2210,6 +2210,7 @@ html {
     margin-left: 0;
     margin-right: 0;
     display: flex;
+    padding-top: 1rem;
   }
   
 
@@ -2378,7 +2379,7 @@ html {
   }
   
   .container.container-video {
-    margin-bottom: 90px;
+    margin-bottom: 112px;
     padding-bottom: 0;
   }
   
@@ -2908,14 +2909,16 @@ html {
     border: 1px solid #f7f7f7;
     justify-content: space-between;
     align-items: center;
-    margin-top: -60px;
+    margin-top: 60px;
     margin-bottom: 120px;
     padding: 40px 160px;
     display: flex;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
   }
 
-  
+  .image-10 {
+    width: 4rem;
+  }
   .container-quote {
     width: 70%;
     text-align: center;
@@ -3107,6 +3110,9 @@ html {
   .precios-block {
     width: 50%;
     margin: 30px 50px 30px 10px;
+  }
+  .precios-block2{
+    margin-right: 0;
   }
   
   .container-facts-inner {
@@ -3494,6 +3500,9 @@ html {
     height: 240px;
     object-fit: cover;
   }
+  .grid_image_elephant{
+    object-position: 50% 10%;
+  }
   
   .div-block {
     justify-content: space-between;
@@ -3668,7 +3677,7 @@ html {
   
     .premium-image-container {
       width: 80%;
-      margin-top: -37px;
+      margin-top: 37px;
       padding-left: 20px;
       padding-right: 20px;
     }
@@ -3784,7 +3793,7 @@ html {
     }
   
     .image-6 {
-      height: 100%;
+      width: 100%;
       object-fit: cover;
     }
   
@@ -4285,6 +4294,7 @@ html {
     .image-10 {
       z-index: 50;
       position: static;
+      width: 3.25rem;
     }
   
     .image-11 {
