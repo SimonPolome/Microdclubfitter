@@ -700,6 +700,16 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+  .container-impossible{
+    align-items: center;
+  }
+  .impossible{
+    text-align: center;
+    font-family: "Caveat", cursive;
+    margin: 160px 0;
+    font-size: 5rem;
+    color: #000;
+  }
   
   .w-container:before, .w-container:after {
     content: " ";
@@ -801,6 +811,7 @@ html {
     .w-container {
       max-width: 728px;
     }
+    
   
     .w-hidden-main {
       display: inherit !important;
@@ -2869,9 +2880,13 @@ html {
     background-size: cover;
     justify-content: center;
     align-items: center;
-    padding: 300px 30px;
+    padding: 350px 30px;
     display: flex;
   }
+  .premium-banner-elephant{
+    background-image: url("../images/photos/elephant.jpg");
+  }
+
   
   .premium-banner-inner {
     max-width: 370px;
@@ -2917,7 +2932,7 @@ html {
   }
 
   .image-10 {
-    width: 4rem;
+    width: 4.5rem;
   }
   .container-quote {
     width: 70%;
@@ -2935,7 +2950,7 @@ html {
   
   .author {
     justify-content: center;
-    align-items: center;
+    align-items: center;  
     margin-top: 20px;
     display: flex;
   }
@@ -3564,7 +3579,16 @@ html {
       align-items: flex-start;
       display: flex;
     }
-  
+    .container-impossible{
+      align-items: center;
+    }
+    .impossible{
+      text-align: center;
+      font-family: "Caveat", cursive;
+      margin: 60px 0;
+      font-size: 2.5rem;
+      color: #000;
+    }
     .container.cc-footer {
       justify-content: flex-start;
     }
@@ -4294,7 +4318,7 @@ html {
     .image-10 {
       z-index: 50;
       position: static;
-      width: 3.25rem;
+      width: 3.5rem;
     }
   
     .image-11 {
