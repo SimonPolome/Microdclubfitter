@@ -2359,12 +2359,15 @@ html {
   
   .container.cc-cta {
     display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   
   .container.cc-footer {
     justify-content: center;
     align-items: flex-start;
     display: flex;
+    flex-direction: row;
   }
   
   .container.cc-right {
@@ -2880,7 +2883,7 @@ html {
     background-size: cover;
     justify-content: center;
     align-items: center;
-    padding: 350px 30px;
+    padding: 500px 30px;
     display: flex;
   }
   .premium-banner-elephant{
@@ -3660,7 +3663,7 @@ html {
     }
   
     .footer-column.cc-footer {
-      width: 30%;
+      width: 40%;
       align-items: flex-start;
       margin-right: 12px;
       margin-bottom: 3rem;
